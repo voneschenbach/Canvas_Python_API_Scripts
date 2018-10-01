@@ -10,7 +10,7 @@ csv_filename = 'add_admins_list.csv' # File of source data
 # add_admins_lisr CSV includes account ID, user ID, and role name
 
 user = {
-	'account_url':'https://seattleu.instructure.com',
+	'account_url':'<INSERT INSTANCE URL>',
 	'token':'<INSERT TOKEN HERE>' 		# Example: 1~13eoncw39f32080234hnv230850KLJ823n8H
 }
 api_path = ['/api/v1/accounts/', '/admins']
