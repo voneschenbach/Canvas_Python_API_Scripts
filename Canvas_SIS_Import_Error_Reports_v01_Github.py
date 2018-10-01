@@ -12,7 +12,7 @@ import datetime # needed to nicely format dates
 os.system('cls' if os.name == 'nt' else 'clear') # clears screen
 
 # variables for Canvas instance and to define account
-instance_url = 'https://seattleu.instructure.com/api/v1/'
+instance_url = '<INSERT INSTANCE URL>'
 token = '<INSERT TOKEN HERE>'
 header = {'Authorization': 'Bearer ' + '%s' % token}
 account = '<INSERT ACCOUNT>' # account number of root account
