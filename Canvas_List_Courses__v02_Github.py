@@ -9,7 +9,7 @@ import csv # needed to read/write csv files
 os.system('cls' if os.name == 'nt' else 'clear') # clears screen
 
 # variables for Canvas instance and to define account
-account_url = 'https://seattleu.instructure.com/api/v1/'
+account_url = '<INSERT INSTANCE URL>'
 token = '<INSERT TOKEN HERE>'
 header = {'Authorization': 'Bearer ' + '%s' % token}
 account = '<INSERT ACCOUNT>' # parent account from which to generate list
