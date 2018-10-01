@@ -14,7 +14,7 @@ os.system('cls' if os.name == 'nt' else 'clear') # clears screen
 
 
 # variables for Canvas instance and to define account
-instance_url = 'https://seattleu.instructure.com/api/v1/'
+instance_url = '<INSERT INSTANCE URL>'
 token = '<INSERT KEY HERE>'
 header = {'Authorization': 'Bearer ' + '%s' % token}
 account = '<INSERT ACCOUNT>' # account number from which to generate list
